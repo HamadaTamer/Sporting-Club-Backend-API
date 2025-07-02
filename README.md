@@ -96,34 +96,21 @@ npm test
 ## 🏗️ Project Structure
 ```
 src/
-├── Members/              # Member management
-├── sports/               # Sport management
-├── Subscriptions/        # Subscription logic
-├── app.module.ts         # Root module
-└── main.ts               # Application entry
+├───database
+│   └───seeds
+├───Members
+│   ├───DTOs
+│   └───Entities
+├───migrations
+├───sports
+│   ├───DTOs
+│   └───Entities
+└───Subscriptions
+    ├───DTOs
+    └───Entities
 ```
 
-## ✅ Assumptions
-1. Family members feature was not fully implemented due to time constraints
-2. Gender validation for sports subscriptions is enforced
-3. Database schema auto-sync is enabled in development
 
-## 📜 License
-MIT
-```
 
-### Key Features of This README:
-1. **Clear Setup Instructions** - From cloning to running the app
-2. **Detailed API Documentation** - All endpoints with example requests
-3. **Environment Configuration** - How to set up the `.env` file
-4. **Project Structure** - Helps reviewers navigate your code
-5. **Testing Info** - Shows you've considered testing
-6. **Assumptions** - Transparent about what's not implemented
 
-### To Use This:
-1. Create a new GitHub repository
-2. Add this as `README.md`
-3. Push your code
-4. Submit the repository link
 
-Would you like me to modify any section or add more details about specific parts?
